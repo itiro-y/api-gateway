@@ -3,11 +3,11 @@ server:
 spring:
   application:
     name: api-gateway
-  cloud:
-    gateway:
-      server:
-        webflux:
-          discovery:
-            locator:
-              enabled: true
-              lower-case-service-id: true
+#  cloud:
+#    gateway:
+#      server:
+#        webflux:
+#          discovery:
+#            locator:
+#              enabled: true
+#              lower-case-service-id: true
